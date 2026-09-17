@@ -16,7 +16,9 @@ import Simulator from "./pages/Simulator";
 import MoneyPlanner from "./pages/MoneyPlanner";
 import SchemeMatcher from "./pages/SchemeMatcher";  
 import Reports from "./pages/Reports";
+
 import FinancialAnalysis from "./pages/FinancialAnalysis";
+
 function App() {
   return (
     <BrowserRouter>
@@ -40,7 +42,10 @@ function App() {
         <Route path="/money-planner" element={<MoneyPlanner />} />
         <Route path="/schemes" element={<SchemeMatcher />} />
         <Route path="/reports" element={<Reports />} />
+
         <Route path="/financial-analysis" element={<FinancialAnalysis />} />
+
+
       </Routes>
     </BrowserRouter>
   );

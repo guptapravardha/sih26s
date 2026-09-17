@@ -5009,6 +5009,7 @@ body {
       grid-template-columns: 1fr;
     }
   }
+<<<<<<< HEAD
 }
 .finance-page {
   width: 100%;
@@ -5353,4 +5354,5 @@ body {
   .finance-warning {
     padding: 13px;
   }
+
 }

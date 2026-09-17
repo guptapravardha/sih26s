@@ -11,7 +11,11 @@ import {
   TrendingUp,
   AlertCircle,
 } from "lucide-react";
+
 import { Calculator } from "lucide-react";
+
+
+
 export default function Dashboard() {
   const navigate = useNavigate();
 
@@ -250,6 +254,7 @@ export default function Dashboard() {
 
           </div>
         </section>
+
         <div
   className="feature-card"
   onClick={() => navigate("/financial-analysis")}
@@ -270,6 +275,7 @@ export default function Dashboard() {
     {"Analyze Finances"}
   </span>
 </div>
+
 
         {/* TRUST LABELS */}
         <section className="trust-section">
